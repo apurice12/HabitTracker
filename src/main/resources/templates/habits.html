@@ -1,0 +1,7 @@
+
+
+<div th:each="habit : ${habits}">
+    <p th:text="${habit.activityType}"></p>
+    <p th:text="${habit.date}"></p>
+    <p th:text="${habit.amount}"></p>
+</div>
